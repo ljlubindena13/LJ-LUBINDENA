@@ -4,175 +4,400 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LJ Lubindena | Portfolio</title>
+    <title>LJ Lubindena | Student Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 
-    <!-- Icons -->
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
 
-    <!-- NAVIGATION LOGO -->
-     <header class="header">
-     <nav class="navbar">
-        <a href="#home" class="logo">
-        <span class="logo-design"></span>
-        </a>
+    <!-- HEADER -->
+    <header class="header">
 
-        <ul class="nav-link">
-        <a href="#personal" class="nav-link">Personal Information</a>
-        <a href="#education" class="nav-link">Educational Background</a>
-        <a href="#skills" class="nav-link">Skills</a>
-        <a href="#experience" class="nav-link">Experience</a>
-        <a href="#contact" class="nav-link">Contact</a>
-        <a href="#character" class="nav-link">Character Reference</a>
-        </ul>
-    </nav>
+        <div class="header-profile">
+            <div class="header-logo">LJ.</div>
+
+            <div class="header-info">
+                <h3>LJ LUBINDENA</h3>
+                <p>BS Computer Science</p>
+            </div>
+        </div>
+
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="#personal">PERSONAL INFORMATION</a>
+            <a href="#education">EDUCATIONAL BACKGROUND</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#experience">EXPERIENCE</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#reference">CHARACTER REFERENCE</a>
+            <a href="#contact" class="reference-link">Let's Connect</a>
+        </nav>
+
     </header>
 
     <main class="container">
 
         <!-- HOME -->
-        <section id="home" class="home-card">
-            <div class="cover"></div>
+        <section class="hero" id="home">
 
-            <img src="4647fc67-889b-4b73-b8ee-855513b06442.jpg"
-                 alt="My Profile Picture"
-                 class="profile-img">
+            <div class="hero-text">
+                <p class="eyebrow">HELLO, WELCOME TO MY PORTFOLIO</p>
 
-            <h1>LJ Lubindena</h1>
-            <p class="subtitle">BSCS | Web Developer</p>
+                <h1>LJ<br><span>Lubindena.</span></h1>
 
-            <p class="welcome">Hi! Welcome to my portfolio ♡</p>
+                <h2>First-Year BS Computer Science Student</h2>
 
-            <p class="intro">
-                I am a Computer Science student who loves learning
-                new things and exploring the world of technology.
-            </p>
+                <p class="intro">
+                    An aspiring web developer who is beginning
+                    to explore the world of programming, website
+                    design, and computer technology.
+                </p>
 
+                <a href="#personal" class="button">
+                    EXPLORE MY RESUME ↓
+                </a>
+            </div>
+
+            <!-- PROFILE PHOTO -->
+            <div class="photo-area">
+                <div class="photo-decoration"></div>
+
+                <div class="photo-frame">
+                    <img src="a9bb27fa-e55e-45c6-b124-468a69308b12.jpg"
+                         alt="Profile picture of LJ Lubindena">
+                </div>
+
+                <div class="photo-caption">
+                    <span>01 / PROFILE</span>
+                    <p>Learning today.<br>Building tomorrow.</p>
+                </div>
+            </div>
+
+            <!-- SOCIAL LINKS -->
             <div class="social-links">
-                <a href="https://github.com/" target="_blank">
-                    <i class="fa-brands fa-github"></i> GitHub
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
                 </a>
 
-                <a href="https://facebook.com/" target="_blank">
-                    <i class="fa-brands fa-facebook-f"></i> Facebook
+                <a href="https://facebook.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    Facebook
                 </a>
 
                 <a href="mailto:your-email@example.com">
-                    <i class="fa-solid fa-envelope"></i> Email
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
                 </a>
+
             </div>
+
         </section>
 
         <!-- PERSONAL INFORMATION -->
-        <section id="personal" class="info-card">
-            <h2><i class="fa-solid fa-user"></i> Personal Information</h2>
+        <section class="section" id="personal">
 
-            <div class="info-list">
-                <p><i class="fa-solid fa-id-card"></i>
-                    <span><strong>Full Name</strong><br>LJ Lubindena</span></p>
-
-                <p><i class="fa-solid fa-calendar"></i>
-                    <span><strong>Date of Birth</strong><br>October 13, 2008</span></p>
-
-                <p><i class="fa-solid fa-venus-mars"></i>
-                    <span><strong>Gender</strong><br>Female</span></p>
-
-                <p><i class="fa-solid fa-heart"></i>
-                    <span><strong>Hobbies</strong><br>Designing, coding, learning</span></p>
+            <div class="section-heading">
+                <span class="number">01</span>
+                <div>
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>Personal Information</h2>
+                </div>
             </div>
+
+            <div class="info-layout">
+
+                <div class="info-intro">
+                    <h3>A little about myself.</h3>
+                    <p>
+                        I am a college student who is eager to
+                        learn, improve my abilities, and discover
+                        new opportunities in technology.
+                    </p>
+                </div>
+
+                <div class="info-list">
+
+                    <div class="info-row">
+                        <span>Full Name</span>
+                        <p>LJ Lubindena</p>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Course</span>
+                        <p>BS Computer Science</p>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Year Level</span>
+                        <p>First Year College</p>
+                    </div>
+
+                    <div class="info-row">
+                        <span>College</span>
+                        <p>Philippine Advent College</p>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Address</span>
+                        <p>[Sindangan Zamboanga Del Norte]</p>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Email</span>
+                        <p>[lubindenal@gmail.com]</p>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
 
-        <!-- EDUCATION -->
-        <section id="education" class="info-card">
-            <h2><i class="fa-solid fa-graduation-cap"></i>
-                Educational Background</h2>
+        <!-- EDUCATIONAL BACKGROUND -->
+        <section class="section blue-section" id="education">
 
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <h3>2026 - Present</h3>
-                    <h4>Philippine Advent Coleege</h4>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <p>Currently studying</p>
+            <div class="section-heading">
+                <span class="number">02</span>
+                <div>
+                    <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                    <h2>Educational Background</h2>
                 </div>
-
-                <div class="timeline-item">
-                    <h3>2025 - 2026</h3>
-                    <h4>Sindangan National Agricultural Integrated School</h4>
-                    <p>High School Graduate</p>
-                </div>
-
-                <div class="timeline-item">
-                    <h3>2019 - 2020</h3>
-                    <h4>Manlabay Elementary School</h4>
-                    <p>Elementary Graduate</p>
-                </div>
-
             </div>
+
+            <div class="education-item">
+                <div class="education-year">COLLEGE</div>
+                <div>
+                    <h3>Philippine Advent College</h3>
+                    <p>Bachelor of Science in Computer Science</p>
+                    <span>First-Year College Student</span>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="education-year">SENIOR HIGH</div>
+                <div>
+                    <h3>Sindangan National Agricultural
+                        Integrated School</h3>
+                    <p>Accountancy, Business and Management (ABM)</p>
+                    <span>Senior High School Graduate</span>
+                </div>
+            </div>
+
         </section>
 
         <!-- SKILLS -->
-        <section id="skills" class="info-card">
-            <h2><i class="fa-solid fa-gears"></i> Skills</h2>
+        <section class="section" id="skills">
 
-            <ul class="skills-list">
-                <li>Web Design</li>
-                <li>HTML & amp; CSS</li>
-                <li>Graphic Design</li>
-                <li>Problem Solving</li>
-                <li>Teamwork</li>
-                <li>Basic Programming</li>
-            </ul>
+            <div class="section-heading">
+                <span class="number">03</span>
+                <div>
+                    <p class="eyebrow">WHAT I AM LEARNING</p>
+                    <h2>Skills & amp; Abilities</h2>
+                </div>
+            </div>
+
+            <p class="section-description">
+                As a beginner in web development, I am gradually
+                building my technical skills through lessons,
+                practice, and academic activities.
+            </p>
+
+            <div class="skills-grid">
+
+                <article class="skill-card pink-card">
+                    <span class="skill-number">01</span>
+                    <h3>HTML</h3>
+                    <p>
+                        Learning how to structure web pages
+                        using headings, paragraphs, links,
+                        images, and sections.
+                    </p>
+                    <span class="skill-level">BEGINNER</span>
+                </article>
+
+                <article class="skill-card blue-card">
+                    <span class="skill-number">02</span>
+                    <h3>CSS</h3>
+                    <p>
+                        Learning colors, typography, spacing,
+                        layouts, and responsive website design.
+                    </p>
+                    <span class="skill-level">BEGINNER</span>
+                </article>
+
+                <article class="skill-card blue-card">
+                    <span class="skill-number">03</span>
+                    <h3>C++ Fundamentals</h3>
+                    <p>
+                        Practicing variables, input and output,
+                        conditions, arrays, and loops.
+                    </p>
+                    <span class="skill-level">BEGINNER</span>
+                </article>
+
+                <article class="skill-card pink-card">
+                    <span class="skill-number">04</span>
+                    <h3>Basic Computer Skills</h3>
+                    <p>
+                        Using Microsoft Office and basic
+                        computer applications for schoolwork.
+                    </p>
+                    <span class="skill-level">FOUNDATIONAL</span>
+                </article>
+
+                <article class="skill-card pink-card">
+                    <span class="skill-number">05</span>
+                    <h3>Creative Design</h3>
+                    <p>
+                        Exploring simple website layouts,
+                        color combinations, and visual presentation.
+                    </p>
+                    <span class="skill-level">DEVELOPING</span>
+                </article>
+
+                <article class="skill-card blue-card">
+                    <span class="skill-number">06</span>
+                    <h3>Personal Skills</h3>
+                    <p>
+                        Willingness to learn, patience,
+                        teamwork, and communication.
+                    </p>
+                    <span class="skill-level">CONTINUOUS GROWTH</span>
+                </article>
+
+            </div>
+
         </section>
 
         <!-- EXPERIENCE -->
-        <section id="experience" class="info-card">
-            <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+        <section class="section pink-section" id="experience">
 
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>2026 - Present</h3>
-                    <h4>STUDENT WEB DEVELOPER</h4>
-                    <p>Personal Portfolio Project</p>
-                    <ul>
-                        <li>Created a personal portfolio website.</li>
-                        <li>Designed layouts using HTML and CSS.</li>
-                        <li>Practiced responsive web design.</li>
-                    </ul>
+            <div class="section-heading">
+                <span class="number">04</span>
+                <div>
+                    <p class="eyebrow">MY FIRST YEAR</p>
+                    <h2>Learning Experience</h2>
                 </div>
             </div>
+
+            <div class="experience-layout">
+
+                <div class="experience-date">
+                    <span>2026</span>
+                    <p>FIRST YEAR</p>
+                </div>
+
+                <div class="experience-content">
+                    <h3>My Journey as a Computer Science Student</h3>
+
+                    <p>
+                        As a first-year student coming from the
+                        ABM strand, I am learning the fundamentals
+                        of computer science and programming.
+                        Although I am still a beginner, I am
+                        gradually developing my understanding
+                        through classroom lessons and practice.
+                    </p>
+
+                    <ul>
+                        <li>Practicing basic C++ programming.</li>
+                        <li>Learning HTML structure and CSS styling.</li>
+                        <li>Creating a personal website and portfolio.</li>
+                        <li>Improving logical thinking and problem-solving.</li>
+                    </ul>
+
+                    <p class="experience-note">
+                        Current experience: Academic learning
+                        and beginner-level projects.
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 
-        <!-- CONTACT -->
-        <section id="contact" class="info-card">
-            <h2><i class="fa-solid fa-address-book"></i> Contact</h2>
+        <!-- CONTACT / LET'S CONNECT -->
+        <section class="section" id="contact">
 
-            <div class="info-list">
-                <p><i class="fa-solid fa-phone"></i>
-                    <span><strong>Phone</strong><br>0954-076-4793</span></p>
-
-                <p><i class="fa-solid fa-envelope"></i>
-                    <span><strong>Email</strong><br>lubindenal@gmail.com</span></p>
-
-                <p><i class="fa-solid fa-location-dot"></i>
-                    <span><strong>Address</strong><br>Sindangan Zamboanga Del Norte</span></p>
-
-                <p><i class="fa-brands fa-facebook"></i>
-                    <span><strong>Facebook</strong><br>
-                        <a href="https://facebook.com/">Your Facebook Profile</a>
-                    </span></p>
+            <div class="section-heading">
+                <span class="number">05</span>
+                <div>
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact Information</h2>
+                </div>
             </div>
+
+            <p class="section-description">
+                Feel free to reach out through my contact
+                information below.
+            </p>
+
+            <div class="contact-grid">
+
+                <div class="contact-card">
+                    <span>EMAIL ADDRESS</span>
+                    <p>
+                        <a href="mailto:your-email@example.com">
+                            [lubindenal@gmail.com]
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <span>PHONE NUMBER</span>
+                    <p>[09540764793]</p>
+                </div>
+
+                <div class="contact-card">
+                    <span>FACEBOOK</span>
+                    <p>
+                        <a href="https://facebook.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Visit my Facebook
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <span>GITHUB</span>
+                    <p>
+                        <a href="https://github.com/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Visit my GitHub
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 
         <!-- CHARACTER REFERENCE -->
-        <section id="character" class="info-card">
-            <h2><i class="fa-solid fa-users"></i>
-                Character Reference</h2>
+        <section class="section blue-section" id="reference">
 
-            <div class="info-list">
+            <div class="section-heading">
+                <span class="number">06</span>
+                <div>
+                    <p class="eyebrow">PROFESSIONAL REFERENCE</p>
+                    <h2>Character Reference</h2>
+                </div>
+            </div>
+
+            <div class="reference-card">
+                <div class="reference-mark">“</div>
+
+                <div class="info-list">
                 <p><i class="fa-solid fa-user-tie"></i>
                     <span><strong>Full Name</strong><br>Jaypee B. Torrefranca</span></p>
 
@@ -182,14 +407,27 @@
                 <p><i class="fa-solid fa-phone"></i>
                     <span><strong>Contact Number</strong><br>0976-364-0180</span></p>
 
-            </div>
+
+            <p class="reference-note">
+                Replace this sample with a teacher or another
+                appropriate reference person after asking
+                for their permission.
+            </p>
+
         </section>
 
-        <footer>
-            <p>© 2026 LJ Lubindena | My Personal Portfolio ♡</p>
-        </footer>
-
     </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="footer-logo">LJ.</a>
+
+        <p>Designed & amp; developed by LJ Lubindena</p>
+
+        <a href="#home">BACK TO TOP ↑</a>
+
+    </footer>
 
 </body>
 </html>
